@@ -1,0 +1,227 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/*
+  Theme overrides
+ */
+
+header.site-header {
+	border-top: 0;
+}
+
+@media screen and (min-width: $on-laptop * 2) {
+	.wrapper {
+		max-width: -webkit-calc(#{$content-width} * 2 - (#{$spacing-unit}));
+	  max-width:         calc(#{$content-width} * 2 - (#{$spacing-unit}));
+	  padding-right: $spacing-unit / 2;
+	  padding-left: $spacing-unit / 2;
+	}
+}
+
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+@media screen and (min-width: $on-laptop) {
+	h1 {
+		font-size: 2.2rem;
+	}
+}
+@media screen and (min-width: $on-laptop * 2) {
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+@media screen and (min-width: $on-laptop) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+@media screen and (min-width: $on-laptop * 2) {
+	h2 {
+		font-size: 2.5rem;
+	}
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+@media screen and (min-width: $on-laptop) {
+	h3 {
+		font-size: 1.4rem;
+	}
+}
+@media screen and (min-width: $on-laptop * 2) {
+	h3 {
+		font-size: 1.7rem;
+	}
+}
+
+
+
+.box-shadow {
+	box-shadow: 1px 2px 3px 1px #00000052
+}
+
+.box-shadow-high-blur {
+	box-shadow: 9px -13px 20px 1px #96959552
+}
+
+.btn {
+	display: inline-block;
+
+	&:hover {
+		text-decoration: none;
+		filter: brightness(0.90);
+	}
+
+	&:visited {
+		text-decoration: none;
+		filter: brightness(0.70);
+	}
+}
+
+.btn-primary {
+	border-radius: 6px;
+	color: white !important;
+	background-color: rgb(46, 124, 157);
+	padding: 0.7rem;
+	font-size: 1.2rem;
+}
+
+@media screen and (min-width: 800px) {
+	.btn-primary {
+		padding: 0.7 rem;
+		font-size: 1.2rem;
+	}
+}
+
+.btn-secondary {
+	border-radius: 6px;
+	color: #494949 !important;
+  border: #494949 1px solid;
+	padding: 0.7rem;
+	font-size: 1.1rem;
+	background-color: white;
+}
+
+
+@media screen and (min-width: 800px) {
+	.btn-secondary {
+		padding: 0.7rem;
+		font-size: 1.2rem;
+	}
+}
+
+.flex-center > .btn:nth-child(2) {
+	margin-left: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.center-children {
+	& > * {
+		text-align: center;
+	}
+}
+
+.flex {
+	display: flex;
+}
+
+.columns-2 {
+	*:nth-child(even) {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.flex-center {
+		display: flex;
+		align-items: center;
+	}
+	.columns-2 {
+		/* margin-top: 100px; */
+		/* margin-left: 5%; */
+	
+		& > * {
+			flex: 50%;
+			&:nth-child(n+2) {
+				padding-left: 20px;
+			}
+		}
+		*:nth-child(even) {
+			margin-top: 0;
+		}
+	}
+
+	.columns-3 {
+		/* margin-left: 5%; */
+		padding: 0 20px;
+
+		& > * {
+			flex: 33%;
+		}
+	}
+}
+
+
+/*
+************ Footer
+*/
+.legal-pages {
+	margin-bottom: 10px;
+	display: flex;
+
+	.page-link {
+		margin-right: 20px;
+		color: #646464;
+		&:visited {
+			color: #646464
+		}
+	}
+}
+
+
+/*
+************ Landing page
+*/
+
+#intro {
+	background-color: #CAEBFA;
+	min-height: calc(90vh - 55.95px);
+	display: flex;
+	h1 {
+		font-weight: normal;
+	}
+	h2 {
+		font-weight: normal;
+		line-height: 115%;
+	}
+}
+
+section:first-child {
+	padding: 0;
+}
+section {
+	padding: 100px 0;
+}
+
+#digitalisierung {
+}
+
+#wartung {
+	background-color: #f4f6f8;
+}
+
