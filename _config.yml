@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Effective
+title: Effective Software
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Wir setzen genau das um, was gebraucht wird. In unseren Projekten entscheiden Sie, auf welche Qualitätskriterien der Software wie viel Augenmerk gelegt wird. Wir klären mit Ihnen die Anforderungen und erarbeiten geeignete Lösungen.

@@ -23,19 +23,17 @@ layout: home
 <section id="digitalisierung">
 	<div class="wrapper">
 		<div>
-			<div class="columns-2 flex-center">
-				<div class="text-container">
-					<h2>Digitalisierung von Geschäftsprozessen</h2>
-				</div>
-				<div class="image-container">
-					<image src="/assets/People_27-02_no-bg.png"/>
-				</div>	
+				<h2>Digitalisierung von Geschäftsprozessen</h2>
 			</div>
+		<div class="flex-center">
+			
 			<div>
-				<h3>Unternehmenssoftware trägt fundamental zur Wertschöpfung bei</h3>
-				<p>Stabile, langlebige und smarte Lösungen im Kerngeschäft verschaffen Wettbewerbsvorteile.</p>
-				<p>Mit einem Mix aus umfangreicher Analyse, kurzen Feedbackzyklen und klarer Kommunikation schaffen wir eine passgenaue Projektumsetzung. Wir sind als kleines, kompaktes Team mit breiter Erfahrung ein kompetenter und effizienter Partner.</p>
-			</div>
+				<image src="/assets/People_27-02_no-bg.png"/>
+			</div>	
+		</div>
+		<div>
+			<h3>Unternehmenssoftware trägt fundamental zur Wertschöpfung bei</h3>
+			<p>Stabile, langlebige und smarte Lösungen im Kerngeschäft verschaffen Wettbewerbsvorteile. Mit einem Mix aus umfangreicher Analyse, kurzen Feedbackzyklen und klarer Kommunikation schaffen wir eine passgenaue Projektumsetzung. Wir sind als kleines, kompaktes Team mit breiter Erfahrung ein kompetenter und effizienter Partner.</p>
 		</div>
 	</div>
 </section>
