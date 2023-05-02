@@ -3,33 +3,32 @@ layout: wrapped
 title: Impressum
 ---
 
-<h1>Impressum</h1>
-
-<h2>Name</h2>
+<h3>Name</h3>
 DI Harald Jagenteufel
 
-<h2>Standort der Gewerbeberechtigung bzw. volle geografische Anschrift</h2>
+<h3>Standort der Gewerbeberechtigung</h3>
 1120 Wien,<br>
 Flurschützstraße 28/34-35
 
-<h2>Unternehmensgegenstand</h2>
+<h3>Unternehmensgegenstand</h3>
 Softwareentwicklung
 
-<h2>Kontaktdaten</h2>
-E-Mail: info (at) effectivesoftware.eu
+<h3>Kontaktdaten</h3>
+E-Mail: <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-<h2>UID-Nummer</h2>
+<h3>UID-Nummer</h3>
 ATU78158725
 
-<h2>Mitgliedschaften bei der Wirtschaftskammerorganisation</h2>
+<h3>Mitgliedschaften bei der Wirtschaftskammerorganisation</h3>
 Mitglied der WKÖ, WKÖW
 
-<h2>Behörde gem. ECG</h2>
+<h3>Behörde gem. ECG</h3>
 Magistratisches Bezirksamt des XII. Bezirkes
 
-<h2>Anwendbare Rechtsvorschriften</h2>
-Gewerbeordnung abrufbar unter https://www.ris.bka.gv.at/
+<h3>Anwendbare Rechtsvorschriften</h3>
+Gewerbeordnung abrufbar unter <a href="https://www.ris.bka.gv.at/" target="_BLANK">https://www.ris.bka.gv.at/</a>
 
-<h2>Angaben zur Online-Streitbeilegung</h2>
-Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: http://ec.europa.eu/odr. <br>
+<h3>Angaben zur Online-Streitbeilegung</h3>
+Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: <a href="http://ec.europa.eu/odr" target="_BLANK">http://ec.europa.eu/odr</a>. <br>
 Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten.
+
