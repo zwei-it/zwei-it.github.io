@@ -19,8 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Effective Software
-email: info@effectivesoftware.eu
-emailhello: hello@effectivesoftware.eu
+email: hello@effectivesoftware.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Wir setzen genau das um, was gebraucht wird. In unseren Projekten entscheiden Sie, auf welche Qualitätskriterien der Software wie viel Augenmerk gelegt wird. Wir klären mit Ihnen die Anforderungen und erarbeiten geeignete Lösungen.
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -11,7 +11,7 @@ layout: home
 				</div>
 				<div class="flex-center">
 				  <a class="btn btn-primary" target="_blank" href="https://calendly.com/effective-software/30min">Terminvereinbarung</a>
-				  <a class="btn btn-secondary" target="_blank" href="mailto:{{ site.emailhello }}">Kontakt</a>
+				  <a class="btn btn-secondary" target="_blank" href="mailto:{{ site.email }}">Kontakt</a>
 				</div>
 			</div>
 			<div class="image-container">
