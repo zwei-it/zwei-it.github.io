@@ -20,7 +20,7 @@ E-Mail: <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
 ATU78158725
 
 <h3>Mitgliedschaften bei der Wirtschaftskammerorganisation</h3>
-Mitglied der WKÖ, WKÖW
+Mitglied der WKÖ, WKW
 
 <h3>Behörde gem. ECG</h3>
 Magistratisches Bezirksamt des XII. Bezirkes
